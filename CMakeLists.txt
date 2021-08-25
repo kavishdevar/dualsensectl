@@ -51,3 +51,5 @@ else()
 endif()
 
 target_link_libraries(DualSenseCtl PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+
+install(TARGETS DualSenseCtl DESTINATION bin)
