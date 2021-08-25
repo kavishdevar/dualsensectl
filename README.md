@@ -7,11 +7,14 @@ Control your dualsense controller using this app on linux.
 1) Go to [Releases](/releases)
 2) Download the zip file named ```dualsensectl-[ver].zip```
 3) Extract it
-4) cd to the directory where its extracted 
+4.1) cd to the directory where its extracted
 5) Now Run
 ```bash
 ./DualSenseCtl
 ```
+#### or
+4) open file manager and go to the directory where its extracted
+5) double click the application with the icon
 
 # Build
 ## Open a terminal 

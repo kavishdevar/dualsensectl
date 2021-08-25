@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(DualSenseCtl LANGUAGES CXX)
+project(DualSenseCtl LANGUAGES CXX C)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -50,6 +50,7 @@ else()
     endif()
 endif()
 
-target_link_libraries(DualSenseCtl PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(DualSenseCtl PRIVATE Qt${QT_VERSION_MAJOR}::Widgets "dbus-1" "hidapi-hidraw")
 
 install(TARGETS DualSenseCtl DESTINATION bin)
+install(FILES dualsensectl.desktop DESTINATION applications)
