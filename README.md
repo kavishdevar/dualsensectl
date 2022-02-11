@@ -1,7 +1,7 @@
 # DualSense control app for linux
-
+## Note - Works only for Kernel 5.13 and above.
 Control your dualsense controller using this app on linux.
-
+# Credit - https://github.com/nowrep/dualsensectl
 # Direct Run
 ## Download and Extract
 1) Go to [Releases](/releases)
